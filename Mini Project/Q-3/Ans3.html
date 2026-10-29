@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px #ccc;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .input-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-top: 15px;
+            padding: 0 12px;
+            background-color: white;
+        }
+
+        .input-box img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 14px 0;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            background: transparent;
+        }
+
+        .input-box:focus-within {
+            border-color: #e23744;
+            box-shadow: 0 0 5px #e23744;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 20px;
+            background-color: #e23744;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Add Your Social Links</h2>
+
+        <form>
+            <div class="input-box">
+                <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram">
+                <input type="url" placeholder="Instagram Profile URL" required>
+            </div>
+
+            <div class="input-box">
+                <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn">
+                <input type="url" placeholder="LinkedIn Profile URL" required>
+            </div>
+
+            <div class="input-box">
+                <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook">
+                <input type="url" placeholder="Facebook Profile URL" required>
+            </div>
+
+            <div class="input-box">
+                <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube">
+                <input type="url" placeholder="YouTube Channel URL" required>
+            </div>
+
+            <button type="submit">Save Social Links</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
+

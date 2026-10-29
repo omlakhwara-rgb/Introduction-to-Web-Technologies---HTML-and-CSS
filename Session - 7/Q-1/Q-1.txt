@@ -1,0 +1,1 @@
+Q-1 . Create an HTML file with a container div and 4 images of your favorite apps (Instagram, WhatsApp, Zomato, Spotify) as social icons. Use CSS Flexbox to display them in a row with equal spacing using justify-content

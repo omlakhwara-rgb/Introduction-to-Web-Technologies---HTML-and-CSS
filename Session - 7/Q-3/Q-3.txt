@@ -1,0 +1,1 @@
+Q-3. Design a Flipkart-style product grid: create a section with 6 product cards (use placeholder images and product names), and use CSS Grid to arrange them in 3 columns and 2 rows.

@@ -1,0 +1,1 @@
+Q-5 . Add a footer to your page with Instagram-style social icons and ensure the entire layout remains visually cohesive by applying a consistent color scheme using Bootstrap utility classes.

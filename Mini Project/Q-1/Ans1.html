@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Links Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #198754;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #146c43;
+        }
+
+        .cards {
+            margin-top: 25px;
+        }
+
+        .card {
+            padding: 15px;
+            margin-top: 12px;
+            border-radius: 8px;
+            background-color: #e8f5e9;
+            border-left: 5px solid #198754;
+            overflow-wrap: anywhere;
+        }
+
+        .card a {
+            color: #198754;
+            text-decoration: none;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Music Links</h1>
+
+        <form id="musicLinksForm">
+
+            <label for="spotify">Spotify Profile URL</label>
+            <input type="url" id="spotify" placeholder="https://open.spotify.com/..." required>
+
+            <label for="youtube">YouTube Music Profile URL</label>
+            <input type="url" id="youtube" placeholder="https://music.youtube.com/..." required>
+
+            <label for="apple">Apple Music Profile URL</label>
+            <input type="url" id="apple" placeholder="https://music.apple.com/..." required>
+
+            <button type="submit">Submit Links</button>
+
+        </form>
+
+        <div class="cards" id="previewCards">
+            <h2>Music Link Previews</h2>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById("musicLinksForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            let spotify = document.getElementById("spotify").value;
+            let youtube = document.getElementById("youtube").value;
+            let apple = document.getElementById("apple").value;
+
+            let cards = document.getElementById("previewCards");
+
+            cards.innerHTML = "<h2>Music Link Previews</h2>";
+
+            let musicLinks = [
+                { name: "Spotify", url: spotify },
+                { name: "YouTube Music", url: youtube },
+                { name: "Apple Music", url: apple }
+            ];
+
+            musicLinks.forEach(function(music) {
+                let card = document.createElement("div");
+                card.className = "card";
+
+                let title = document.createElement("h3");
+                title.textContent = music.name;
+
+                let link = document.createElement("a");
+                link.href = music.url;
+                link.textContent = "Open " + music.name;
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+
+                card.appendChild(title);
+                card.appendChild(link);
+
+                cards.appendChild(card);
+            });
+        });
+    </script>
+
+</body>
+</html>

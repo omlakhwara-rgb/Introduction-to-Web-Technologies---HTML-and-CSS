@@ -1,0 +1,1 @@
+Q-4. Override the Bootstrap primary button color in your own CSS file to use a custom shade (not the default blue), and apply it to a 'Book Ticket' button on your page.<br><br><em><strong>Hint:</strong> Use the CSS selector .btn-primary in your custom stylesheet and link it after the Bootstrap CSS.</em>

@@ -1,0 +1,1 @@
+Q-2 .Design a Bootstrap Card to display a Flipkart-style product preview with an image, product name, price, and a 'Buy Now' button.

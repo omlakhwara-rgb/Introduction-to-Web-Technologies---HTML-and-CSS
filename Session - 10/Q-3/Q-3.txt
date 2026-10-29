@@ -1,0 +1,1 @@
+Q-3. Build a Bootstrap Carousel that cycles through 3 movie posters, each with a caption below like BookMyShow's featured movies section.<br><br><em><strong>Hint:</strong> Use Bootstrap's Carousel component and add images with captions inside each carousel-item.</em>

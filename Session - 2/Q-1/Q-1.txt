@@ -1,0 +1,1 @@
+ Q-1. Create a new HTML file called foodie-profile.html with the full HTML5 boilerplate structure (<!DOCTYPE html>, <html>, <head>, <body>), and set the title to 'My Foodie Profile'.

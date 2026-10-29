@@ -1,0 +1,1 @@
+Q-1 . Create an HTML file that uses semantic tags to build a simple blog post layout with <header> for the blog title, <nav> for navigation links (Home, Explore, About), <article> for the main post content, and <footer> for copyright information.

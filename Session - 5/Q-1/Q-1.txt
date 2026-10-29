@@ -1,0 +1,1 @@
+Q-1 . Create an HTML file for a Flipkart-style product card and apply inline CSS to set a unique background color and font size for the product title only

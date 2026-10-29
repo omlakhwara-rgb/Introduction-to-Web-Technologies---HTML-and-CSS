@@ -1,0 +1,2 @@
+Q-5 . Create a table that compares 3 food delivery apps (e.g., Zomato, Swiggy, Uber Eats) with columns for App Name, Delivery Charges, and Rating. Fill in sample data for each.
+

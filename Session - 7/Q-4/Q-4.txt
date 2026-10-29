@@ -1,0 +1,1 @@
+Q-4. Make your product grid responsive: use grid-template-columns to show 3 columns on desktop, 2 columns on tablet, and 1 column on mobile screens.<br><br><em><strong>Hint:</strong> Use CSS media queries to change grid-template-columns based on screen width.</em>

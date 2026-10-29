@@ -1,0 +1,1 @@
+Q-2 .Build a horizontal playlist bar like Spotify using Flexbox: add 5 song cards with song name and artist, and use align-items to vertically center the text in each card

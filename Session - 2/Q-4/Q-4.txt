@@ -1,0 +1,1 @@
+Q-4. Insert an image of your favorite dish using the <img> tag, and make the image clickable so it opens the official website of that dish or restaurant in a new tab using an anchor (<a>) tag.<br><br><em><strong>Hint:</strong> Use target="_blank" in your anchor tag.</em>

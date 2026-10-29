@@ -1,0 +1,1 @@
+Q-2 .Design a responsive UI for a personal 'Gamer Tag' bio link page that adapts to both mobile and desktop screens, showing the user's avatar, gaming alias, and buttons linking to their Twitch, Discord, and Steam profiles.<br><br><em><strong>Hint:</strong> Use CSS Flexbox or Grid for layout and media queries for responsiveness.</em>

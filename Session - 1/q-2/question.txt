@@ -1,0 +1,2 @@
+Q-2 . Create a simple HTML file named myprofile.html that displays your name, a short bio, and a profile picture using appropriate HTML tags (h1, p, img). Open it in your browser and view the result.
+

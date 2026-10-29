@@ -1,0 +1,1 @@
+Q-1 . Create a Flipkart-style product card in HTML and CSS, then use a meta viewport tag to ensure it scales correctly on mobile devices.

@@ -1,0 +1,1 @@
+Q-3. Set up three breakpoints (600px, 900px, 1200px) for your product card and change the card's font size and padding at each breakpoint to improve readability on different devices.<br><br><em><strong>Hint:</strong> Use @media only screen and (max-width: ...) in your CSS for each breakpoint.</em>

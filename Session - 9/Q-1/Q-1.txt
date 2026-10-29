@@ -1,0 +1,1 @@
+Q-1 . Create a Bootstrap layout for a Flipkart-style product card page: use a container with a row, and display three product cards side by side using the grid system's columns.

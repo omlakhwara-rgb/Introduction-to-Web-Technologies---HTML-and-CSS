@@ -1,0 +1,1 @@
+Q-2 .Recreate a Zomato-style restaurant listing card using semantic HTML5 tags: use <article> for each restaurant, <header> for the restaurant name, and <footer> for rating and delivery time.

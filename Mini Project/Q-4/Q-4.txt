@@ -1,0 +1,1 @@
+Q-4. After submitting the form, show a preview card for each link with the platform logo, the username/handle extracted from the URL, and a 'Visit' button that opens the link in a new tab.<br><br><em><strong>Constraint:</strong> The preview cards must look visually distinct for each platform (different colors or borders).</em>

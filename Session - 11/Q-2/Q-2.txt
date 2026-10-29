@@ -1,0 +1,1 @@
+Q-2 .Build a movie review card (like BookMyShow) using Bootstrap typography utilities to style the movie title, rating, and review text with different font weights and sizes.

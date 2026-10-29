@@ -1,0 +1,1 @@
+Q-2 .Add media queries to your product card so that when the screen width is 600px or less, the card layout switches from horizontal (image and details side by side) to vertical (image on top, details below).

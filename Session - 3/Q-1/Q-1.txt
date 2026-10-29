@@ -1,0 +1,1 @@
+Q-1 . Create an HTML form for a Flipkart-style product review, including input fields for username, rating (as a dropdown from 1 to 5), and a textarea for the review message. Use appropriate labels for each field.

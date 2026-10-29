@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flipkart Product Card</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .product-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid gray;
+            padding: 15px;
+            width: 500px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .product-card img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .product-details {
+            flex: 1;
+        }
+
+        .price {
+            color: green;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #2874f0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+       
+        @media (max-width: 600px) {
+            .product-card {
+                flex-direction: column;
+                width: auto;
+            }
+
+            .product-card img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-card">
+
+        <img src="headpones.jpg" alt="Wireless Headphones">
+
+        <div class="product-details">
+            <h2>Wireless Headphones</h2>
+            <p>High-quality wireless headphones.</p>
+            <p class="price">₹999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,1 @@
+Q-2 .Build a Myntra-like offer banner using internal CSS (inside a <style> tag) to set a custom font family, text color, and background color for the banner text.

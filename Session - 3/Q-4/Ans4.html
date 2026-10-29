@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Order Form</title>
+</head>
+<body>
+
+    <h1>Zomato Food Order Form</h1>
+
+    <form method="POST">
+
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="food">Food Item:</label>
+        <select id="food" name="food" required>
+            <option value="" disabled selected>Select Food Item</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Burger">Burger</option>
+            <option value="Biryani">Biryani</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="instructions">Delivery Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="5" cols="30" required style="vertical-align: middle;"></textarea><br><br>
+
+        <input type="submit" value="Place Order">
+
+    </form>
+
+</body>
+</html>
+

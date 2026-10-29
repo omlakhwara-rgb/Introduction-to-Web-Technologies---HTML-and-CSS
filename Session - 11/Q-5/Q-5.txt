@@ -1,0 +1,1 @@
+Q-5 . Add a theme switcher button to your page that toggles between a light and dark background using Bootstrap classes, and updates the text color for readability.<br><br><em><strong>Hint:</strong> Use JavaScript to toggle 'bg-light'/'bg-dark' and 'text-dark'/'text-light' classes on the main container.</em>

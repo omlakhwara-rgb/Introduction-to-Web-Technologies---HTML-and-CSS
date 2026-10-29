@@ -1,0 +1,1 @@
+Q-3. Style the input form for adding social links so that each input field displays a platform icon (Instagram, LinkedIn, etc.) inside the input box, similar to how Zomato shows icons in their search bar.<br><br><em><strong>Hint:</strong> Use background-image or position an <img> inside the input with CSS.</em>

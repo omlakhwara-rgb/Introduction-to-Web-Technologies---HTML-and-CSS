@@ -1,0 +1,1 @@
+Q-2 .Build a Zomato restaurant listing page using Bootstrap grid: arrange two restaurant cards per row, each card showing a restaurant name and a short description.<br><br><em><strong>Hint:</strong> Use col-6 inside a row to get two equal columns per row.</em>

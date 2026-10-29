@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookMyShow Movie Details</title>
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        button {
+            background-color: #f84464;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BookMyShow</h1>
+    <h2>Movie: Avengers Endgame</h2>
+    <p>Genre: Action, Adventure, Sci-Fi</p>
+    <p>Rating: 8.4/10</p>
+
+    <button onclick="toggleMode()">Toggle Light/Dark Mode</button>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+
+</body>
+</html>
+

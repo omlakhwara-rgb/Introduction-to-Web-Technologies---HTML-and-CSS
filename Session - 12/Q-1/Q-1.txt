@@ -1,0 +1,1 @@
+Q-1 . Create a static landing page for a music artist using HTML and CSS, featuring their profile image, a short bio, and three social media buttons styled with Bootstrap icons.

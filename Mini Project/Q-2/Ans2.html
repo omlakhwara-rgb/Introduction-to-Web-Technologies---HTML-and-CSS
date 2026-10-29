@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Tag Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            width: 100%;
+            max-width: 400px;
+            background: #1f2937;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px #06b6d4;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #06b6d4;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #06b6d4;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #d1d5db;
+            margin-bottom: 25px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .social-links a {
+            display: block;
+            padding: 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .twitch {
+            background: #9146ff;
+        }
+
+        .discord {
+            background: #5865f2;
+        }
+
+        .steam {
+            background: #171a21;
+            border: 1px solid #66c0f4;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.05);
+            opacity: 0.85;
+        }
+
+        /* Desktop Screen */
+        @media (min-width: 768px) {
+            .profile-card {
+                max-width: 500px;
+                padding: 40px;
+            }
+
+            .avatar {
+                width: 150px;
+                height: 150px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .social-links {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .social-links a {
+                flex: 1;
+                min-width: 110px;
+            }
+        }
+
+        /* Mobile Screen */
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+
+            .profile-card {
+                padding: 25px 20px;
+            }
+
+            .avatar {
+                width: 100px;
+                height: 100px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <img
+            src="https://placehold.co/150x150/111827/06b6d4?text=GAMER"
+            alt="Gamer Avatar"
+            class="avatar"
+        >
+
+        <h1>OK Gamerz</h1>
+
+        <p>🎮 Gamer | Streamer | Pro Player</p>
+
+        <div class="social-links">
+            <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer" class="twitch">
+                Twitch
+            </a>
+
+            <a href="https://discord.com/" target="_blank" rel="noopener noreferrer" class="discord">
+                Discord
+            </a>
+
+            <a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer" class="steam">
+                Steam
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>

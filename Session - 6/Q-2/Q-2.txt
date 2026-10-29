@@ -1,0 +1,1 @@
+    Q-2 .Design a Flipkart-style product tile with an image, product name, and price. Use different display properties (block, inline-block, none) to control the layout of the product name and price, and hide the price when a specific CSS class is added.<br><br><em><strong>Hint:</strong> Try toggling the class in your HTML to see the effect.</em>

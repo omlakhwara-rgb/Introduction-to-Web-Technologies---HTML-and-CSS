@@ -1,0 +1,1 @@
+Q-4. Create a BookMyShow movie poster grid where each poster uses position: relative. Add a 'New' badge to the top-left corner of one poster using position: absolute, so it overlays the image correctly.<br><br><em><strong>Hint:</strong> Use top and left properties with position: absolute inside a relatively positioned parent.</em>

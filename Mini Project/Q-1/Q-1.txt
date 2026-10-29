@@ -1,0 +1,1 @@
+Q-1 . Create an HTML form called musicLinksForm that accepts Spotify, YouTube Music, and Apple Music profile URLs as input fields, and display the submitted links as styled preview cards below the form.

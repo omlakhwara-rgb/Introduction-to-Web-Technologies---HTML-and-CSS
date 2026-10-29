@@ -1,0 +1,1 @@
+Q-1 . Create an HTML file that displays a Zomato-style restaurant card with a restaurant name, cuisine type, and rating. Use CSS to add margin, padding, and a visible border to the card so that each section is clearly separated.

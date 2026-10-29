@@ -1,0 +1,1 @@
+Q-1 . Create a Bootstrap Navbar for a music playlist app like Spotify, including links for Home, Playlists, and Profile. Make sure it collapses into a hamburger menu on mobile.

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Flipkart Product Grid</title>
+
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid gray;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Tablet: Display 2 columns */
+        @media (max-width: 768px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile: Display 1 column */
+        @media (max-width: 480px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Flipkart Products</h1>
+
+    <section class="product-grid">
+
+        <div class="product-card">
+            <img src="headpones.jpg" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="iphun.png" alt="Smartphone">
+            <h3>Smartphone</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="laptop.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="smartwathcn.jpg" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="camera.jpg" alt="Camera">
+            <h3>Digital Camera</h3>
+        </div>
+
+        <div class="product-card">
+            <img src="speajer.jpg" alt="Speaker">
+            <h3>Bluetooth Speaker</h3>
+        </div>
+
+    </section>
+
+</body>
+</html>

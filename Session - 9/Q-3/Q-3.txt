@@ -1,0 +1,1 @@
+Q-3. Design a BookMyShow-like movie details section using Bootstrap: place a movie poster image in one column and movie details (title, genre, rating, and a 'Book Now' button) in the second column, using the grid system.

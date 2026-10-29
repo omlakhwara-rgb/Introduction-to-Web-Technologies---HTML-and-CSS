@@ -1,0 +1,1 @@
+Q-4. Build a Zomato-style food order form with inputs for user name, a select dropdown for food item (at least 3 options), quantity (number input), and a textarea for delivery instructions. Ensure all fields are labeled and use required validation.    

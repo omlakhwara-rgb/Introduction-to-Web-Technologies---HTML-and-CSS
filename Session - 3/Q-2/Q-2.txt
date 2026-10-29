@@ -1,0 +1,1 @@
+Q-2 .Add HTML5 validation attributes to your review form so that username is required, rating must be selected, and the review message must be at least 20 characters long.<br><br><em><strong>Hint:</strong> Use required, minlength, and a default unselectable option for the dropdown.</em>

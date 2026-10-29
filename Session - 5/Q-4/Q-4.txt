@@ -1,0 +1,1 @@
+Q-4. Write CSS selectors to style all elements with the class 'playlist-item' (for a Spotify playlist page) to have a dark background and white text. Then, add a rule to highlight the currently playing song with a different color using a unique id selector.

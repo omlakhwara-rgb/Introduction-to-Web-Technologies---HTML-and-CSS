@@ -1,0 +1,1 @@
+Q-3. Design a Zomato-style restaurant list where each restaurant card uses at least three different Bootstrap color utility classes to highlight ratings, offers, and open/closed status

@@ -1,0 +1,1 @@
+Q-4. Refactor your 2-column layout to be mobile-friendly: make the columns stack vertically on screens smaller than 576px using Bootstrap's responsive grid classes.<br><br><em><strong>Hint:</strong> Try using col-12 for xs and col-6 for md and above.</em>

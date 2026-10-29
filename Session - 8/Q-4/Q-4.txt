@@ -1,0 +1,1 @@
+Q-4. Test your responsive product card by resizing your browser window and taking screenshots at mobile, tablet, and desktop widths; submit the screenshots along with a short note on what changes at each size.

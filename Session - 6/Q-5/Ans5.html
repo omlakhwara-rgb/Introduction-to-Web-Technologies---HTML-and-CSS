@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato Restaurant Card</title>
+
+    <style>
+        .common-spacing {
+            margin: 20px;
+            padding: 15px;
+        }
+
+        /* Reusing this class avoids repeating margin and padding values.
+           If spacing needs to change, we only update this class,
+           making the code easier to maintain. */
+
+        .restaurant-card {
+            border: 2px solid #e23744;
+            width: 300px;
+        }
+
+        .restaurant-name {
+            border-bottom: 1px solid gray;
+        }
+
+        .cuisine {
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="restaurant-card common-spacing">
+
+        <div class="restaurant-name common-spacing">
+            <h2>Punjabi Tadka</h2>
+        </div>
+
+        <div class="cuisine common-spacing">
+            <p>Cuisine: North Indian, Punjabi</p>
+        </div>
+
+        <div class="rating common-spacing">
+            <p>Rating: 4.5/5</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,1 @@
+Q-3. Build a fixed-position WhatsApp chat notification badge at the bottom right corner of the screen. Use position: fixed and appropriate margin and padding to ensure it stays visible even when scrolling

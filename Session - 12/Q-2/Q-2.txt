@@ -1,0 +1,1 @@
+Q-2 .Use Bootstrap's grid system to arrange three featured playlists (like Spotify) in a responsive row, each with a cover image, playlist name, and a 'Listen Now' button.

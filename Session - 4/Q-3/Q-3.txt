@@ -1,0 +1,2 @@
+Q-3. 
+Build a Flipkart-style product page section with semantic tags: use <header> for the product title and image, <nav> for category breadcrumbs, <article> for product details and description, and <footer> for offers or warranty info.<br><br><em><strong>Hint:</strong> Focus on the correct use of tags for structure, not just visual layout.</em>
